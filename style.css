@@ -21,7 +21,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 100vh;
+  min-height: 100vh;
   background-color: var(--Pale-blue);
 }
 
@@ -137,11 +137,12 @@ a:hover{
   .container {
     max-width: 450px;
     line-height: 1.5;
-    margin: auto;
+    margin: 3rem auto;
   }
 
   .order{
-    padding: 1rem;
+    padding: 1.5rem 2rem;
+    gap: 1rem;
   }
   
 }
